@@ -2,8 +2,8 @@ import * as THREE from 'three';
 import { LANES, LANE_WIDTH, PLAYER_START_Z, PLAYER_LANE_CHANGE_COOLDOWN } from './constants.js';
 
 // Player dimensions for 2D sprite
-const PLAYER_HEIGHT = 2.5; // Height of the sprite plane
-const PLAYER_WIDTH = 1.5; // Width of the sprite plane
+const PLAYER_HEIGHT = 3.5; // Height of the sprite plane
+const PLAYER_WIDTH = 2.5; // Width of the sprite plane
 
 export class Player {
     constructor() {
